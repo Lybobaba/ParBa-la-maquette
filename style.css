@@ -1,0 +1,284 @@
+
+.menu1 ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+}
+.menu2 ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+.menu1 ul li{
+    background-color:  #1f8ba1;
+    padding: 15px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.menu1 ul li a{
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 100px;
+    min-width: 80px;
+}
+.menu2 ul li{
+    margin-top: -70px;
+    padding-right: 15px;
+    color:  #1f8ba1;
+}
+.menu2 ul li a{
+    color:  #1f8ba1;
+    text-decoration: none;
+    
+}
+header{
+    background-color:white;
+}
+header nav{
+    justify-content: space-between;
+    border-bottom: 3px solid  #1f8ba1;
+    border-right: 2px solid  #1f8ba1;
+    padding-bottom: 12px;
+    margin-right: 10px;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.button{
+    display: flex;
+    margin: 37px;
+    width: 15px auto;
+    margin-left: 35%;
+    gap: 40px;
+    font-size: 25px;
+}
+.button1{
+    background-color: #1f8ba1;
+    border-radius: 15px;
+    border: 2px solid #4bbfd6 ;
+    color: white;
+    font-size: 140%;
+    cursor: pointer;
+    
+}
+.button2{
+    background-color: azure;
+    border-radius: 15px;
+    border: 2px solid #4bbfd6 ;
+    color: #1f8ba1;
+    font-size: 25px;
+    font-size: 140%;
+    cursor: pointer;
+}
+body{
+    background-color: azure;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+.gauche{
+    margin-left: 10%;
+    text-align: left;
+    padding-left: 16%;
+    
+}
+.gauche h1{
+    font-size: 50px;
+    margin-right: 100px;
+}
+.gauche p{
+    font-size: 35px;
+    margin: 2%;
+    
+}
+
+.premiere{
+    display: flex;
+    gap: 100px;
+    margin: 42px;
+}
+.paragraph{
+    background-color: #1f8ba1;
+    text-align: center;
+    color: white;
+    margin-bottom: 17px;
+    padding:  10px;
+}
+.paragraph h1 em{
+   font-weight: 900 bold;
+   color: white;
+   font-style: italic;
+   text-align: center;
+   font-size: 150%;
+
+}
+.paragraph h4{
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+hr{
+    width: 15%;
+    height: 2px;
+    background-color: #1f8ba1;
+    color: #1f8ba1;
+    
+}
+.gallery{
+    width: auto;
+    display: flex;
+    padding: 2%;
+    margin: 4%;
+    background-color: #1f8ba1;
+}
+.gallery div{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:0px;
+    padding: 20px;
+    
+}
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8% auto;
+    
+}
+#leftbtn, #rightbtn{
+    width: 4%;
+    cursor: pointer;
+    margin: 40px;
+    list-style: none;
+}
+
+ h1{
+    text-align: center;
+    color: #1f8ba1;
+    font-size: 35px;
+    font-family: Arial, Helvetica;
+}
+
+.cartes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.cartes1{
+    width: 60%;
+    max-width: 240px;
+    height: 12%;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px 45px ;
+    margin: 5%;
+    border: 2.5px solid blue;   
+}
+
+.cartes2{
+    width: 60%;
+    max-width: 240px;
+    height: 12%;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px 45px ;
+    margin: 5%;
+    border: 2.5px solid blue;    
+    
+}
+.cartes p,h2,h4{
+    color: black;
+}
+.cartes p{
+    text-align: center;
+       
+}
+.Contact{
+    color: #1f8ba1;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica;
+}
+.formulaires{
+    border-radius: 20px;
+    background-color: #1f8ba1;
+    color: white;
+    width: 870px;
+    max-width: 990px;
+    margin: 120px auto;
+    padding: 2% ;
+}
+
+
+label{
+    display: inline-block;
+    width: 250%;
+    margin: 3px;
+    font-size: 14px;
+
+}
+input{
+    display: inline-block;
+    padding: 3%;
+    border-radius: 2px;
+    margin: 5px 10px;
+}
+
+footer{
+    background-color: rgba(19, 3, 34, 0.926);
+    width: 100%;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    padding: 0 15px;
+
+}
+.container h4 {
+    color: white;
+}
+.container a{
+    background-color: white;
+    opacity: 70%;
+}
+
+.paragraph1{
+    text-align: left;
+    padding: 4%;
+    color: white;
+    opacity: 50%;
+}
+
+.paragraph2{
+    text-align: left;
+    margin: 10%;
+    color: white;
+    opacity: 50%;
+}
+.about_as  {
+   display: flex;
+}
+footer h6{
+    text-decoration: none;
+    margin-left: 35% ;
+    opacity: 38%;
+    color: white;
+}
